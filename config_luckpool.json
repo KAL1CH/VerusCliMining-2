@@ -1,18 +1,18 @@
 {
 	"pools":[
 	{
-		"name": "luckpool",
-        	"url": "stratum+tcp://na.luckpool.net:3956",
+		"name": "Luckpool",
+        	"url": "stratum+tcp://eu.luckpool.net:3960",
 		"timeout": 150
 	},
 	{
-		"name": "luckpool",
-        	"url": "stratum+tcp://na.luckpool.net:3956",
+		"name": "Luckpool2",
+        	"url": "stratum+tcp://eu.luckpool.net:3957",
 		"timeout": 150
 	},
 	{
-		"name": "luckpool",
-        	"url": "stratum+tcp://na.luckpool.net:3956",
+		"name": "Luckpool3",
+        	"url": "stratum+tcp://eu.luckpool.net:3956",
 		"timeout": 150
 	}
 	],
@@ -22,6 +22,6 @@
 	"threads": 8,
 	"cpu-priority": 1,
 	"retry-pause": 5,
-	"api-allow": "188.187.160.33",
+	"api-allow": "192.168.1.0/16",
 	"api-bind": "0.0.0.0:4068"
 }
